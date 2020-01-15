@@ -24,7 +24,7 @@ presentes na plataforma que batem com sua pesquisa.
 Para fazer o download de um determinado filme:
 
 ```bash
-python filmes_cult.py -d 'nome do filme e ano'
+$ python filmes_cult.py -d 'nome do filme e ano'
 ```
 
 No comando acima você pode usar apenas letras minúsculas e números, 

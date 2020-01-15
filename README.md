@@ -12,7 +12,7 @@ para realizar o download de filmes.
 O projeto possui um único arquivo capaz de realizar pesquisas 
 bem como o download dos arquivos do site.
 
-Para realizar pesquisas basta rodar o comando:
+Para realizar pesquisas, basta rodar o comando:
 
 ```bash
 $ python filmes_cult.py -p 'minha pesquisa'

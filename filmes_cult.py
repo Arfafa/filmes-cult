@@ -24,7 +24,7 @@ args = parser.parse_args()
 
 
 def search(pesquisa):
-    url = 'https://filmestorrentshd.org/cult/?s='
+    url = 'https://filmescult.net/?s='
 
     page = requests.get(url+pesquisa)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -41,7 +41,7 @@ def search(pesquisa):
 
 
 def download(filme):
-    url = 'https://filmestorrentshd.org/cult/'
+    url = 'https://filmescult.net/'
 
     page = requests.get(url+filme)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -86,7 +86,7 @@ def download_torrent(magnet_link, name_dir):
 
     command = f'qbittorrent --save-path={path} '
     command += '--skip-dialog=true '
-    command += f'{magnet_link}'
+    command += f'{magnet_link} &'
 
     os.system(command)
 

@@ -1,6 +1,6 @@
 # Projeto
 Um programa para otimizar o download dos filmes 
-e legendas presentes no site [Filmes Cult](https://filmestorrentshd.org/cult/)
+e legendas presentes no site [Filmes Cult](https://filmescult.net)
 
 ## Pré-requisitos:
 
